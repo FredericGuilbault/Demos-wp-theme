@@ -81,9 +81,9 @@
 
 	<?php if ( is_home() || is_front_page() ) : ?>
 		<div class="frontPage bigLinks">
-			<div class="box" ><div class="foot">Initiatives</div></div>
-			<div class="box" ><div class="foot">Outils</div></div>
-			<div class="box" ><div class="foot">Documentation</div></div>
+			<div class="box" ><div class="foot"><span>Initiatives</span>    <br> <a href="#">Découvrez les initiatives citoyenne de la région </a></div></div>
+			<div class="box" ><div class="foot"><span>Outils</span>         <br> <a href="#">Répertoire d'outils Pour favoriser la participation citoyenne </a></div></div>
+			<div class="box" ><div class="foot"> <span>Documentation</span> <br> <a href="#"> Nos archives et documentation </a></div></div>
 		</div>
 		<div id="featured-content">
 			<?php get_template_part( 'template-parts/loop', 'featured' ); ?>
