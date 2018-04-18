@@ -1,0 +1,45 @@
+/*
+ Theme Name:   boston Child
+ Theme URI:
+ Description:  boston Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     boston
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  boston-child
+*/
+
+
+
+
+.frontPage.bigLinks{
+    height:270px;
+    background-color: silver;
+    width: 100%;
+
+}
+
+
+.frontPage.bigLinks{
+    height:445px;
+    width: 100%;
+}
+
+.frontPage.bigLinks .box{
+    position: relative;
+    height:100%;
+    float: left;
+    width:33.3%;
+    background-color: gray;
+}
+
+.frontPage.bigLinks  .foot{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
