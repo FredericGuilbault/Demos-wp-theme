@@ -15,7 +15,7 @@
 
 
 .frontPage.bigLinks{
-    height:270px;
+    height: 270px;
     background-color: silver;
     width: 100%;
 
@@ -23,15 +23,15 @@
 
 
 .frontPage.bigLinks{
-    height:445px;
+    height: 445px;
     width: 100%;
 }
 
 .frontPage.bigLinks .box{
     position: relative;
-    height:100%;
+    height: 100%;
     float: left;
-    width:33.3%;
+    width: 33.3%;
     background-color: gray;
 }
 
@@ -44,12 +44,23 @@
     background-color: rgba(0, 0, 0, 0.4);
     font-size: 19px;
     line-height: 1.3;
-    color:#fff;
-    padding:10px;
+    color: #fff;
+    padding: 10px;
 }
-.frontPage.bigLinks .foot h5{
+
+.frontPage.bigLinks .foot span{
+    margin-left: 7px;
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 3px;
     text-decoration: underline;
+}
+
+.frontPage.bigLinks img{
+    height: 100%;
+    width: 100%;
+}
+
+.frontPage.bigLinks img:hover{
+    filter: blur(1px);
 }
