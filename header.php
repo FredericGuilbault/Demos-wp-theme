@@ -81,12 +81,18 @@
 
 	<?php if ( is_home() || is_front_page() ) : ?>
 		<div class="frontPage bigLinks">
-			<div class="box" ><a href="#"><img src="<?php echo get_template_directory_uri(); ?>-child/assets/images/osm-mrcs.png"/></a><div class="foot"><span>Initiatives</span>
-					<br><a href="#">Découvrez les initiatives citoyenne de la région</a></div></div>
-			<div class="box" ><a href="#"><img src="<?php echo get_template_directory_uri(); ?>-child/assets/images/outils-103106678.jpg"/></a><div class="foot"><span>Outils</span>
-					<br> <a href="#">Répertoire d'outils Pour favoriser la participation citoyenne</a></div></div>
-			<div class="box" ><a href="#"><img src="<?php echo get_template_directory_uri(); ?>-child/assets/images/library-453232114.jpg"/></a><div class="foot"> <span>Documentation</span>
-					<br> <a href="#">Nos archives et documentation</a></div></div>
+			<a href="#">
+				<div class="box" id="box1"><div class="foot"><span>Initiatives</span>
+				<br>Découvrez les initiatives citoyenne de la région</div></div>
+			</a>
+			<a href="#">
+				<div class="box" id="box2"><div class="foot"><span>Outils</span>
+				<br> Répertoire d'outils Pour favoriser la participation citoyenne</div></div>
+			</a>
+			<a href="#">
+			<div class="box" id="box3"><div class="foot"> <span>Documentation</span>
+					<br>Nos archives et documentation</div></div>
+			</a>
 		</div>
 		<div id="featured-content">
 			<?php get_template_part( 'template-parts/loop', 'featured' ); ?>
